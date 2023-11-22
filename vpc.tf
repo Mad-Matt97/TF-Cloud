@@ -6,7 +6,7 @@ resource "aws_vpc" "vpc-virginia" {
   tags = {
     Name = "VPC_VIRGINIA-${local.suffix}"
   }
-  provider = aws.virginia
+  provider = aws
 }
 
 resource "aws_subnet" "public_subnet" {
