@@ -48,6 +48,6 @@ variable "ingress_port_list" {
 
 }
 
-variable "access_key" {}
+variable "AWS_ACCESS_KEY_ID" {}
 
-variable "secret_key" {}
+variable "AWS_SECRET_ACCESS_KEY" {}
